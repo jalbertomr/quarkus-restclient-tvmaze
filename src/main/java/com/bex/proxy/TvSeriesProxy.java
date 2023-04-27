@@ -17,7 +17,7 @@ import jakarta.ws.rs.core.MediaType;
  */
 @Path("/singlesearch")
 @Produces(MediaType.APPLICATION_JSON)
-@RegisterRestClient(baseUri = "https://api.tvmaze.com/")
+@RegisterRestClient
 public interface TvSeriesProxy {
      
 	@GET
